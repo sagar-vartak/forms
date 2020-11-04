@@ -6,30 +6,56 @@
     <title>Registration</title>
     <style>body {
         color: white;
+        background-color: black;
       }</style>
 </head>
 
 <body>
-    <div style="background-image: url('./photo.jpeg');">
+    <h1>Registration Form</h1>
     <forms action="" method="post">
-        <label for="username">username :</label><br>
+        <fieldset>
+            <legend>Personal Details</legend>
+        <label for="username">name :</label><br>
         <input type="text" value="" id="username">
         <br>
 
         <label for="email">email :</label><br>
-        <input type="text" value="" id="email">
+        <input type="email" value="" id="email">
         <br>
 
         <label for="phn">phone number :</label><br>
         <input type="text" value="" id="phn">
         <br>
 
-        <label for="password">password :</label><br>
-        <input type="password" value="" id="password">
-        <br>
 
+    </fieldset>
+    <fieldset>
+        <legend>Interests</legend>
+        <input type="radio"  value="1">Coding</option><br>
+        <input type="radio"  value="2">Art</option><br>
+        <input type="radio"  value="3"g>Movies</option><br>
+        <input type="radio"  value="4">Gaming</option><br>
+
+        <label for="other">Other Interests</label>
+        <input type="text" id="other">
+    </fieldset>
+    <fieldset>
+        <legend>INTERNSHIPS</legend>
+
+        <label for="other">Completed internships if any:</label>
+        <input type="text" id="other"> <br>(if not type NIL)
+        
+    </fieldset>
+    <fieldset>
+        <legend>Employement</legend>
+        Were you employed somewhere before?<br>
+        <input type="radio" name="employment" value="1">Employed</option><br>
+        <input type="radio" name="employment" value="2">Not Employed</option><br>
+    </fieldset>
+   
+        <br>
         <input type="submit" value="submit">
-    </div>
+        <input type="reset" value="reset">
     </forms>
 </body>
 </html>
