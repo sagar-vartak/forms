@@ -18,6 +18,6 @@ Creating a simple Registration form
     <li>reset button</li>
 </ul>
 <h3>Live link is here</h3>
-<a href="./new_registration.html">User registration</a>
+<a href="https://sagar-vartak.github.io/forms/new_registration.html">User registration</a>
 </body>
 </html>
